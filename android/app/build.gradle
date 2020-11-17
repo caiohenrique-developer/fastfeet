@@ -170,7 +170,7 @@ android {
             resValue "string", "CodePushDeploymentKey", '"WYInFRjyb7L2Ul_WJbBamydrahLORyG_BgO1I"'
         }
         release {
-            // signingConfig signingConfigs.release
+            signingConfig signingConfigs.release
             resValue "string", "CodePushDeploymentKey", '"qP7Al9tnZlWLQHn_mU9hIyZiqeXrk2dbJ522B"'
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
